@@ -1,0 +1,105 @@
+{
+  "_comment": "시연용 가상 샘플입니다. ODsay searchPubTransPathT 응답 형식을 흉내 낸 것이며 소요 시간·거리·좌표·문 번호·버스 번호/정류장은 실제 값이 아닙니다.",
+  "result": {
+    "searchType": 0,
+    "path": [
+      {
+        "pathType": 1,
+        "info": {
+          "totalTime": 28,
+          "payment": 1550,
+          "busTransitCount": 0,
+          "subwayTransitCount": 2,
+          "totalWalk": 1000,
+          "firstStartStation": "청량리",
+          "lastEndStation": "혜화"
+        },
+        "subPath": [
+          { "trafficType": 3, "distance": 200, "sectionTime": 3 },
+          {
+            "trafficType": 1,
+            "distance": 3600,
+            "sectionTime": 9,
+            "stationCount": 4,
+            "lane": [{ "name": "수도권 1호선", "subwayCode": 1 }],
+            "startName": "청량리", "startX": 127.0469, "startY": 37.5803,
+            "endName": "동대문", "endX": 127.0095, "endY": 37.5714,
+            "door": "4-2",
+            "passStopList": { "stations": [
+              { "index": 0, "stationID": 9001, "stationName": "청량리", "x": "127.0469", "y": "37.5803" },
+              { "index": 1, "stationID": 9002, "stationName": "제기동", "x": "127.0349", "y": "37.5782" },
+              { "index": 2, "stationID": 9003, "stationName": "신설동", "x": "127.0250", "y": "37.5752" },
+              { "index": 3, "stationID": 9004, "stationName": "동묘앞", "x": "127.0164", "y": "37.5733" },
+              { "index": 4, "stationID": 9005, "stationName": "동대문", "x": "127.0095", "y": "37.5714" }
+            ] }
+          },
+          { "trafficType": 3, "distance": 250, "sectionTime": 4 },
+          {
+            "trafficType": 1,
+            "distance": 1300,
+            "sectionTime": 2,
+            "stationCount": 1,
+            "lane": [{ "name": "수도권 4호선", "subwayCode": 4 }],
+            "startName": "동대문", "startX": 127.0095, "startY": 37.5714,
+            "endName": "혜화", "endX": 127.0018, "endY": 37.5822,
+            "passStopList": { "stations": [
+              { "index": 0, "stationID": 9101, "stationName": "동대문", "x": "127.0095", "y": "37.5714" },
+              { "index": 1, "stationID": 9102, "stationName": "혜화", "x": "127.0018", "y": "37.5822" }
+            ] }
+          },
+          { "trafficType": 3, "distance": 550, "sectionTime": 8 }
+        ]
+      },
+      {
+        "pathType": 3,
+        "info": {
+          "totalTime": 34,
+          "payment": 1550,
+          "busTransitCount": 1,
+          "subwayTransitCount": 1,
+          "totalWalk": 380,
+          "firstStartStation": "청량리",
+          "lastEndStation": "서울대병원 앞 정류장(예시)"
+        },
+        "subPath": [
+          { "trafficType": 3, "distance": 200, "sectionTime": 3 },
+          {
+            "trafficType": 1,
+            "distance": 4200,
+            "sectionTime": 11,
+            "stationCount": 5,
+            "lane": [{ "name": "수도권 1호선", "subwayCode": 1 }],
+            "startName": "청량리", "startX": 127.0469, "startY": 37.5803,
+            "endName": "종로5가", "endX": 127.0019, "endY": 37.5709,
+            "door": "7-1",
+            "passStopList": { "stations": [
+              { "index": 0, "stationID": 9001, "stationName": "청량리", "x": "127.0469", "y": "37.5803" },
+              { "index": 1, "stationID": 9002, "stationName": "제기동", "x": "127.0349", "y": "37.5782" },
+              { "index": 2, "stationID": 9003, "stationName": "신설동", "x": "127.0250", "y": "37.5752" },
+              { "index": 3, "stationID": 9004, "stationName": "동묘앞", "x": "127.0164", "y": "37.5733" },
+              { "index": 4, "stationID": 9005, "stationName": "동대문", "x": "127.0095", "y": "37.5714" },
+              { "index": 5, "stationID": 9006, "stationName": "종로5가", "x": "127.0019", "y": "37.5709" }
+            ] }
+          },
+          { "trafficType": 3, "distance": 120, "sectionTime": 2 },
+          {
+            "trafficType": 2,
+            "distance": 1400,
+            "sectionTime": 8,
+            "stationCount": 3,
+            "lane": [{ "busNo": "예시 100", "type": 11 }],
+            "startName": "종로5가 정류장(예시)", "startX": 127.0021, "startY": 37.5712,
+            "endName": "서울대병원 앞 정류장(예시)", "endX": 126.9995, "endY": 37.5790,
+            "passStopList": { "stations": [
+              { "index": 0, "stationID": 8001, "stationName": "종로5가 정류장(예시)", "x": "127.0021", "y": "37.5712" },
+              { "index": 1, "stationID": 8002, "stationName": "중간 정류장 1(예시)", "x": "127.0015", "y": "37.5740" },
+              { "index": 2, "stationID": 8003, "stationName": "중간 정류장 2(예시)", "x": "127.0005", "y": "37.5765" },
+              { "index": 3, "stationID": 8004, "stationName": "서울대병원 앞 정류장(예시)", "x": "126.9995", "y": "37.5790" }
+            ] }
+          },
+          { "trafficType": 3, "distance": 60, "sectionTime": 1 }
+        ]
+      }
+    ]
+  }
+}

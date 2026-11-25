@@ -1,0 +1,39 @@
+{
+  "name": "senior-transit-helper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "수도권 어르신 전철·버스 환승 도우미 (Vite + React + TS 프론트, Express + TS 백엔드 프록시)",
+  "workspaces": [
+    "backend-proxy"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n web,api -c cyan,magenta \"npm:dev:web\" \"npm:dev:api\"",
+    "dev:web": "vite",
+    "dev:api": "npm run dev --workspace backend-proxy",
+    "build": "npm run typecheck && vite build && npm run build --workspace backend-proxy",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "convert:facilities": "tsx scripts/convertStationFacilities.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.7",
+    "@types/react": "^19.3.1",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "concurrently": "^10.0.7",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "stationName": "동대문",
+    "fromLine": "1호선",
+    "toLine": "4호선",
+    "quickDoor": "4-2",
+    "walkMeters": 250,
+    "elevator": true,
+    "escalator": true,
+    "steps": [
+      "내리신 뒤 오른쪽 계단 옆 엘리베이터를 타세요",
+      "4호선 표지판을 따라 걸으세요",
+      "다음 역이 혜화인 승강장으로 가세요"
+    ]
+  },
+  {
+    "stationName": "종로5가",
+    "fromLine": "1호선",
+    "toLine": "버스",
+    "quickDoor": "7-1",
+    "walkMeters": 120,
+    "elevator": true,
+    "escalator": false,
+    "steps": [
+      "2번 출구 쪽 엘리베이터를 타세요",
+      "밖으로 나와 오른쪽 버스 정류장으로 가세요"
+    ]
+  }
+]

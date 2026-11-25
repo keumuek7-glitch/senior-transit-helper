@@ -1,0 +1,26 @@
+[
+  {
+    "stationName": "혜화",
+    "line": "4호선",
+    "exitNo": "3",
+    "destinationHint": "서울대병원 방향",
+    "elevatorExit": true,
+    "walkMeters": 550,
+    "steps": [
+      "3번 출구 엘리베이터를 타세요",
+      "밖으로 나와 직진하세요",
+      "큰길을 따라 걸으면 서울대병원 입구입니다"
+    ]
+  },
+  {
+    "stationName": "청량리",
+    "line": "1호선",
+    "exitNo": "2",
+    "destinationHint": "승강장 진입",
+    "elevatorExit": true,
+    "walkMeters": 200,
+    "steps": [
+      "역 안 엘리베이터를 타고 승강장으로 내려가세요"
+    ]
+  }
+]
